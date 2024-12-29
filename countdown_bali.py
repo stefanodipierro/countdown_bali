@@ -5,6 +5,7 @@ from zoneinfo import ZoneInfo  # da Python 3.9 in poi
 def main():
     # Imposta l'anno di destinazione (per il prossimo capodanno)
     new_year = datetime.datetime(2025, 1, 1, 0, 0, 0, tzinfo=ZoneInfo("Asia/Makassar"))
+    print("Script avviato...")
     
     while True:
         now_bali = datetime.datetime.now(ZoneInfo("Asia/Makassar"))
